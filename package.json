@@ -2,7 +2,7 @@
   "main": "./lib/spellchecker.js",
   "name": "notion-spellchecker",
   "description": "Bindings to native spellchecker",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "licenses": [
     {
       "type": "MIT",
@@ -18,13 +18,13 @@
   },
   "scripts": {
     "test": "jasmine-focused --captureExceptions --coffee spec/",
-    "install": "prebuild-install || node-gyp rebuild"
+    "install": "notion-prebuild-install || node-gyp rebuild"
   },
   "devDependencies": {
     "jasmine-focused": "1.x"
   },
   "dependencies": {
     "nan": "^2.0.0",
-    "prebuild-install": "^2.1.1"
+    "notion-prebuild-install": "^2.1.1"
   }
 }
