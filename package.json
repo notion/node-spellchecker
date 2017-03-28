@@ -1,6 +1,6 @@
 {
   "main": "./lib/spellchecker.js",
-  "name": "spellchecker",
+  "name": "notion-spellchecker",
   "description": "Bindings to native spellchecker",
   "version": "3.3.1",
   "licenses": [
@@ -18,12 +18,14 @@
   },
   "homepage": "http://atom.github.io/node-spellchecker",
   "scripts": {
-    "test": "jasmine-focused --captureExceptions --coffee spec/"
+    "test": "jasmine-focused --captureExceptions --coffee spec/",
+    "install": "prebuild-install || node-gyp rebuild"
   },
   "devDependencies": {
     "jasmine-focused": "1.x"
   },
   "dependencies": {
-    "nan": "^2.0.0"
+    "nan": "^2.0.0",
+    "prebuild-install": "^2.1.1"
   }
 }
