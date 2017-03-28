@@ -2,21 +2,20 @@
   "main": "./lib/spellchecker.js",
   "name": "notion-spellchecker",
   "description": "Bindings to native spellchecker",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/atom/node-spellchecker/raw/master/LICENSE.md"
+      "url": "http://github.com/notion/node-spellchecker/raw/master/LICENSE.md"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-spellchecker.git"
+    "url": "https://github.com/notion/node-spellchecker.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/node-spellchecker/issues"
+    "url": "https://github.com/notion/node-spellchecker/issues"
   },
-  "homepage": "http://atom.github.io/node-spellchecker",
   "scripts": {
     "test": "jasmine-focused --captureExceptions --coffee spec/",
     "install": "prebuild-install || node-gyp rebuild"
